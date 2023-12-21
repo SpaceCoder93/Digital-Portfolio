@@ -134,55 +134,12 @@
                 </p>
             </div>
             <div style="position: absolute; top: 200%; left: 0%; width: 45vw; height: 100vh;">
-                <canvas id="myRadar" class="myRadar" width="100vw" height="100vh"></canvas>
-                <script>
-                    const ctx1 = document.getElementById('myRadar');
-                    Chart.defaults.font.family = "Montserrat";
-                    Chart.defaults.font.size = 14;
-                    const data1 = {
-                        labels: [
-                            'S',
-                            'A',
-                            'B',
-                            'C',
-                            'D',
-                            'E',
-                        ],
-                        datasets: [{
-                            label: 'Subject Wise Distribution',
-                            data: [9, 8, 7, 6, 7, 9],
-                            fill: true,
-                            backgroundColor: 'rgba(141, 0, 212, 0.2)',
-                            borderColor: 'rgba(141, 0, 212, 1)',
-                            pointBackgroundColor: 'rgba(141, 0, 212, 1)',
-                            pointBorderColor: '#fff',
-                            pointHoverBackgroundColor: '#fff',
-                            pointHoverBorderColor: 'rgb(255, 99, 132)'
-                        }]
-                    };
-                    new Chart(ctx1, {
-                        type: 'radar',
-                        data: data1,
-                        options: {
-                            responsive: true,
-                            maintainAspectRatio: false,
-                            scales: {
-                                y: {
-                                beginAtZero: true,
-                                grid: {
-                                    color: '#404040'
-                                    }
-                                },
-                                x: {
-                                beginAtZero: true,
-                                grid: {
-                                    color: '#404040'
-                                    }
-                                }
-                            },
-                        }
-                    });
-                </script>
+                <p style="font-size: 4vw; margin-top: 20px; margin-bottom: 30px; font-family: 'Montserrat'; color: rgb(255, 255, 255); margin-left: 5%;">
+                    ACADEMIC SKILLS
+                </p>
+                <p style="font-size: 2vw; margin-top: 0px; margin-bottom: 60px; font-family: 'Montserrat'; color: rgb(255, 255, 255); margin-left: 5%;">
+                    • Problem Solving<br><br>• Object Oriented Programming<br><br>• Database Management Systems<br><br>• Multiple Programming Language<br><br>• AI and Machine Learning Fundamentals<br><br>• Version Control System<br><br>• Soft Skills
+                </p>
             </div>
         </div>
         <div class="academic-projects">
